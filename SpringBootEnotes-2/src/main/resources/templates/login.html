@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org"
+	th:replace="~{ base:: layout(~{::title}, ~{::section}) }">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="card" style="background-color: #dbeef0">
+						<div class="card-header text-center">
+							<h2>Login Page</h2>
+
+							<th:block th:if="${param.error}">
+								<p class="fs-5 text-center text-danger">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+							</th:block>
+
+							<th:block th:if="${param.logout}">
+								<p class="fs-5 text-center text-success">You have been
+									logged out</p>
+							</th:block>
+						</div>
+
+						<div class="card-body">
+							<form action="userLogin" method="post">
+
+								<div class="form-floating mb-3">
+									<!-- name = "username" -->
+									<input type="email" name="username" class="form-control"
+										id="floatingInput" placeholder="name@example.com"> <label
+										for="floatingInput">Email address</label>
+								</div>
+
+								<div class="form-floating mb-3">
+									<input type="password" name="password" class="form-control"
+										id="floatingPassword" placeholder="Password"> <label
+										for="floatingPassword">Password</label>
+								</div>
+
+								<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+									<button type="submit" class="btn btn-success">Sign in</button>
+								</div>
+
+
+							</form>
+
+						</div>
+
+						<div class="card-footer text-center">
+							<p class="fs-6">
+								In case you don't have an account, then <a href="register"
+									class="text-decoration-none">Sign up</a>
+							</p>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>

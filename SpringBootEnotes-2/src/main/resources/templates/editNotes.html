@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org"
+	th:replace="~{ base:: layout(~{::title}, ~{::section}) }">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-7 offset-md-3">
+					<div class="card" style="background-color: #d3f8f7">
+						<div class="card-header text-center">
+							<h4>Edit Note Page</h4>
+						</div>
+
+						<div class="card-body">
+							<form action="/user/updateNotes" method="post">
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label">Note
+										title</label> <input type="text" class="form-control" name="title"
+										th:value="${n.title}" id="exampleFormControlInput1"
+										placeholder="Your note title">
+								</div>
+								<div class="mb-3">
+									<label for="exampleFormControlTextarea1" class="form-label">Note
+										text </label>
+									<textarea class="form-control" name="description"
+										id="exampleFormControlTextarea1"
+										placeholder="Take some note here.." rows="4">[[${n.description}]]</textarea>
+								</div>
+								<input type="hidden" name="id" th:value="${n.id}">
+
+								<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+									<button type="submit" class="btn btn-secondary">Update</button>
+								</div>
+
+							</form>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
