@@ -43,12 +43,12 @@ Many people rely on sticky notes, cluttered documents, or third-party tools to m
 
 ## 💻 Languages, Frameworks, and Tools
 
-- **Language**: Java, HTML, CSS
+- **Language**: Java, HTML5, CSS3
 - **Backend**: Spring Boot, Spring MVC, Spring Data JPA
 - **Frontend**: Thymeleaf, HTML, CSS
 - **Database**: H2 (In-Memory)
 - **Build Tool**: Maven
-- **IDE**: IntelliJ IDEA / Eclipse (assumed)
+- **IDE**: Spring Tool Suite 4
 - **Version Control**: Git + GitHub
 
 ---
