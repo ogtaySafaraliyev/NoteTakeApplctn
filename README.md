@@ -59,17 +59,16 @@ _Add screenshots of your project here:_
 
 | Login Page                                                                                | Register page                                                                             |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| ![image](https://github.com/user-attachments/assets/f68e15f0-1c2f-48e6-96e1-a222740404c4) | ![image](https://github.com/user-attachments/assets/f89b924c-bd43-4860-aeba-7f382c9acb13) | 
+| ![image](https://github.com/user-attachments/assets/f68e15f0-1c2f-48e6-96e1-a222740404c4) | ![image](https://github.com/user-attachments/assets/efc62c15-25f8-44b6-a594-227f3caf7ab2) | 
 
 
-
-| Add Notes Page                                                                                | Register page                                                                             |
+| Add Notes Page                                                                            | View Notes Page                                                                           |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| ![image](https://github.com/user-attachments/assets/1586ccff-1e6a-469d-937d-8fcaaf226234) | ![image](https://github.com/user-attachments/assets/4b801449-a6cc-432b-aeda-343ba0bfd211) | 
+| ![image](https://github.com/user-attachments/assets/1586ccff-1e6a-469d-937d-8fcaaf226234) | ![image](https://github.com/user-attachments/assets/966926da-cd98-48b2-9dbe-16133a209d1f) | 
 
 
-| Login Page                                                                                | Register page                                                                             |
+| Edit Note Page                                                                            | After Deletion Note Page                                                                  |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| ![image](https://github.com/user-attachments/assets/f89b924c-bd43-4860-aeba-7f382c9acb13) | ![image](https://github.com/user-attachments/assets/4b801449-a6cc-432b-aeda-343ba0bfd211) | 
+| ![image](https://github.com/user-attachments/assets/77969a31-2e62-4a8c-bc58-685deba61fe0) | ![image](https://github.com/user-attachments/assets/024f2e2e-bb46-415f-9e1c-918ef160dca2) | 
 
 
