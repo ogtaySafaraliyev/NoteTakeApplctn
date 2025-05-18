@@ -9,8 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.example.entity.User;
 
-public class CustomUser implements UserDetails {
-	
+public class CustomUser implements UserDetails {	
 	
 	private User user;		
 

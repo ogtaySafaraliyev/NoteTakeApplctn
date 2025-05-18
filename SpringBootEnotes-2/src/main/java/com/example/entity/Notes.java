@@ -3,7 +3,8 @@ package com.example.entity;
 import java.time.LocalDate;
 
 import jakarta.persistence.Id;
-
+import jakarta.persistence.Lob;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,6 +21,8 @@ public class Notes {
 	
 	private String title; 
 	
+	@Lob
+	@Column(columnDefinition = "LONGTEXT")
 	private String description;
 	
 	private LocalDate date;

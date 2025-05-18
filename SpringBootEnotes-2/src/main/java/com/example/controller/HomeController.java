@@ -20,6 +20,10 @@ public class HomeController {
 	public String index() {
 		return "index";
 	}
+	//addition to methods
+	public String home() {
+        return "index"; 
+    }
 	
 	@GetMapping("/signin")
 	public String login() {
