@@ -57,3 +57,19 @@ Many people rely on sticky notes, cluttered documents, or third-party tools to m
 
 _Add screenshots of your project here:_
 
+| Login Page                                                                                | Register page                                                                             |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| ![image](https://github.com/user-attachments/assets/f68e15f0-1c2f-48e6-96e1-a222740404c4) | ![image](https://github.com/user-attachments/assets/f89b924c-bd43-4860-aeba-7f382c9acb13) | 
+
+
+
+| Add Notes Page                                                                                | Register page                                                                             |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| ![image](https://github.com/user-attachments/assets/1586ccff-1e6a-469d-937d-8fcaaf226234) | ![image](https://github.com/user-attachments/assets/4b801449-a6cc-432b-aeda-343ba0bfd211) | 
+
+
+| Login Page                                                                                | Register page                                                                             |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| ![image](https://github.com/user-attachments/assets/f89b924c-bd43-4860-aeba-7f382c9acb13) | ![image](https://github.com/user-attachments/assets/4b801449-a6cc-432b-aeda-343ba0bfd211) | 
+
+
