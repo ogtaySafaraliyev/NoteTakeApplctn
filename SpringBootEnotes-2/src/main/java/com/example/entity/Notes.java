@@ -20,7 +20,7 @@ public class Notes {
 	private int id;
 	
 	private String title; 
-	
+	// after update
 	@Lob
 	@Column(columnDefinition = "LONGTEXT")
 	private String description;
